@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+.calculator_wrapper {
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#screen {
+    border-radius: 15px;
+    border: 2px solid white;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.178);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    font-size: 32px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 48px;
+    cursor: pointer;
+    flex-grow: 1;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+#clear_button {
+    width: 210px;
+    background-color: rgba(255, 71, 71, 0.4);
+    border: 2px solid rgba(255, 71, 71, 0.75);
+    transition: background-color 250ms;
+}
+
+#one_input_button,
+#two_input_button,
+#three_input_button,
+#four_input_button,
+#five_input_button,
+#six_input_button,
+#seven_input_button,
+#eight_input_button,
+#nine_input_button,
+#zero_input_button {
+    background-color: rgba(108, 255, 71, 0.4);
+    border: 2px solid rgba(71, 255, 95, 0.75);
+    transition: background-color 250ms;
+}
+
+#one_input_button:hover {
+    background-color: rgba(108, 255, 71, 0.794);
+    border: 2px solid rgba(71, 255, 95, 0.75);
+    transition: background-color 250ms;
+}
+
+#two_input_button:hover {
+    background-color: rgba(108, 255, 71, 0.794);
+    border: 2px solid rgba(71, 255, 95, 0.75);
+    transition: background-color 250ms;
+}
+
+#three_input_button:hover {
+    background-color: rgba(108, 255, 71, 0.794);
+    border: 2px solid rgba(71, 255, 95, 0.75);
+    transition: background-color 250ms;
+}
+
+#four_input_button:hover {
+    background-color: rgba(108, 255, 71, 0.794);
+    border: 2px solid rgba(71, 255, 95, 0.75);
+    transition: background-color 250ms;
+}
+
+#five_input_button:hover {
+    background-color: rgba(108, 255, 71, 0.794);
+    border: 2px solid rgba(71, 255, 95, 0.75);
+    transition: background-color 250ms;
+}
+
+#six_input_button:hover {
+    background-color: rgba(108, 255, 71, 0.794);
+    border: 2px solid rgba(71, 255, 95, 0.75);
+    transition: background-color 250ms;
+}
+
+#seven_input_button:hover {
+    background-color: rgba(108, 255, 71, 0.794);
+    border: 2px solid rgba(71, 255, 95, 0.75);
+    transition: background-color 250ms;
+}
+
+#eight_input_button:hover {
+    background-color: rgba(108, 255, 71, 0.794);
+    border: 2px solid rgba(71, 255, 95, 0.75);
+    transition: background-color 250ms;
+}
+
+#nine_input_button:hover {
+    background-color: rgba(108, 255, 71, 0.794);
+    border: 2px solid rgba(71, 255, 95, 0.75);
+    transition: background-color 250ms;
+}
+
+#zero_input_button:hover {
+    background-color: rgba(108, 255, 71, 0.794);
+    border: 2px solid rgba(71, 255, 95, 0.75);
+    transition: background-color 250ms;
+}
+
+#clear_button:hover {
+    width: 210px;
+    background-color: rgba(255, 71, 71, 0.753);
+    border: 2px solid rgb(255, 71, 71);
+}
+
+#add_input_button:hover {
+    background-color: rgba(237, 255, 71, 0.829);
+    border: 2px solid rgb(255, 252, 71);
+    transition: background-color 250ms;
+}
+
+#sub_input_button:hover {
+    background-color: rgba(237, 255, 71, 0.835);
+    border: 2px solid rgb(255, 252, 71);
+    transition: background-color 250ms;
+}
+
+#div_input_button:hover {
+    background-color: rgba(237, 255, 71, 0.829);
+    border: 2px solid rgb(255, 252, 71);
+    transition: background-color 250ms;
+}
+
+#mult_input_button:hover {
+    background-color: rgba(237, 255, 71, 0.822);
+    border: 2px solid rgb(255, 252, 71);
+    transition: background-color 250ms;
+}
+
+#add_input_button,
+#sub_input_button,
+#div_input_button,
+#mult_input_button {
+    background-color: rgba(237, 255, 71, 0.4);
+    border: 2px solid rgba(255, 252, 71, 0.75);
+    transition: background-color 250ms;
+}
+
+#equal_input_button {
+    background-color: rgba(71, 151, 255, 0.4);
+    border: 2px solid rgba(71, 141, 255, 0.75);
+    transition: background-color 250ms;
+}
+
+#equal_input_button:hover {
+    background-color: rgba(71, 151, 255, 0.835);
+    border: 2px solid rgb(71, 141, 255);
+    transition: background-color 250ms;
+}
+
+.buttons_wrapper {
+    width: 670px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="text1">
+    </div>
+    <div id="text2">
+    </div>
+    <div id="text3">
+    </div>
+    <div id="text4">
+    </div>
+    <div id="text5">
+    </div>
+    <button id="button" onclick="type()">H</button>
+    <script type="text/javascript">
+      var i = 0;
+      let text = "Hello";
+      let check = 0;
+        function type() {
+            setInterval(type()) {
+                if (check < 1) { 
+                        document.getElementById("text1").textContent += text[check];
+                check++;
+                }
+                if (check < 2) { 
+                        document.getElementById("text2").textContent += text[check];
+                check++;
+                }
+                if (check < 3) { 
+                        document.getElementById("text3").textContent += text[check];
+                check++;
+                }
+                if (check < 4) { 
+                        document.getElementById("text4").textContent += text[check];
+                check++;
+                }
+                if (check < 5) { 
+                        document.getElementById("text5").textContent += text[check];
+                check++;
+                }
+            }, 100;
+        }
+    </script>
+</body>
+</html>
